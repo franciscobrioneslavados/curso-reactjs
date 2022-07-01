@@ -5,7 +5,7 @@ describe('Pruebas en <GifItem />', () => {
   const title = 'Saitama'
   const url = 'https://saitama.com'
 
-  test('debe de jacer match con el snapshot', () => {
+  test('debe de hacer match con el snapshot', () => {
     const { container } = render(<GiftItem title={title} url={url} />)
     expect(container).toMatchSnapshot()
   })
